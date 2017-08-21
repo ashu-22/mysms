@@ -1,0 +1,82 @@
+Attachment EndPoint
+/attachment/allow/msisdns
+/attachment/create
+/attachment/part/add
+/attachment/part/uploaded
+/attachment/parts/get
+
+/attachment/allow/msisdns
+* MountPoint:/rest/attachment/allow/msisdns
+
+Request Body
+element: attachmentAllowMsisdnsRequest
+media types: */*
+             application/xml
+             application/json
+             
+Response Body
+element: attachmentAllowMsisdnsResponse
+media types: */*
+             application/xml
+             application/json
+             
+/attachment/create
+* MountPoint:/rest/attachment/create
+
+Request Body
+element: attachmentcreateRequest
+media types: */*
+             application/xml
+             application/json
+             
+Response Body
+element: attachmentcreateResponse
+media types: */*
+             application/xml
+             application/json
+             
+/attachment/part/add
+Mount Point: /rest/attachment/part/add
+
+Request Body
+element: 	attachmentAddPartRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	attachmentAddPartResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+              
+/attachment/part/uploaded
+Mount Point: /rest/attachment/part/uploaded
+
+Request Body
+element: 	attachmentUploadedPartRequest
+media types: 	*/*
+              application/xml
+              application/json
+
+Response Body
+element: 	attachmentUploadedPartResponse
+media types: 	*/*
+              application/xml
+              application/json
+
+/attachment/parts/get
+Mount Point: /rest/attachment/parts/get
+
+Request Body
+element: 	attachmentGetPartsRequest
+media types: 	*/*
+              application/xml
+              application/json
+
+Response Body
+element: 	attachmentGetPartsResponse
+media types: 	*/*
+              application/xml
+              application/json
