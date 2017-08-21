@@ -1,0 +1,20 @@
+.NET Client Library
+
+Introduction:
+
+//read a resource from a REST url
+Uri uri = new Uri(...);
+
+XmlSerializer s = new XmlSerializer(
+  typeof( AttachmentCreateResponse )
+);
+
+  //Create the request object
+WebRequest req = WebRequest.Create(uri);
+WebResponse resp = req.GetResponse();
+Stream stream = resp.GetResponseStream();
+TextReader r = new StreamReader( stream );
+
+AttachmentCreateResponse order = (AttachmentCreateResponse) s.Deserialize( r );
+
+//handle the result as needed...
