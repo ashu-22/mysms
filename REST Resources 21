@@ -1,0 +1,180 @@
+/user/balance/get
+Mount Point: /rest/user/balance/get
+
+Request Body
+element: 	userGetBalanceRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userGetBalanceResponse
+media types: 	*/*
+              application/xml
+              application/json 
+              
+/user/create
+Mount Point: /rest/user/create
+
+Request Body
+element: 	userCreateRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userCreateResponse
+media types: 	*/*
+              application/xml
+              application/json   
+              
+/user/delete
+Mount Point: /rest/user/delete     
+
+Request Body
+element: 	userDeleteRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userDeleteResponse
+media types: 	*/*
+              application/xml
+              application/json 
+              
+/user/feature/get
+Mount Point: /rest/user/feature/get    
+
+Request Body
+element: 	userGetFeatureRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userGetFeatureResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/user/login
+Mount Point: /rest/user/login
+
+Request Body
+element: 	userLoginRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userLoginResponse
+media types: 	*/*
+              application/xml
+              application/json 
+              
+/user/msisdn/verify
+Mount Point: /rest/user/msisdn/verify
+
+Request Body
+element: 	userVerifyMsisdnRequest
+media types: 	*/*
+               application/xml
+               application/json
+               
+Response Body
+element: 	userVerifyMsisdnResponse
+media types: 	*/*
+               application/xml
+               application/json 
+               
+/user/password/change
+Mount Point: /rest/user/password/change 
+
+Request Body
+element: 	userChangePasswordRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userChangePasswordResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/user/password/reset
+Mount Point: /rest/user/password/reset
+
+Request Body
+element: 	userResetPasswordRequest
+media types: 	*/*
+               application/xml
+               application/json
+               
+Response Body
+element: 	userResetPasswordResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/user/setting/get
+Mount Point: /rest/user/setting/get
+
+Request Body
+element: 	userGetSettingRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userGetSettingResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/user/setting/set
+Mount Point: /rest/user/setting/set
+
+
+Request Body
+element: 	userSetSettingRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userSetSettingResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/user/smsrouting/get
+Mount Point: /rest/user/smsrouting/get
+
+Request Body
+element: 	userGetSmsRoutingRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userGetSmsRoutingResponse
+media types: 	*/*
+              application/xml
+              application/json  
+              
+/user/smsrouting/set
+Mount Point: /rest/user/smsrouting/set              
+
+Request Body
+element: 	userSetSmsRoutingRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userSetSmsRoutingResponse
+media types: 	*/*
+application/xml
+application/json              
