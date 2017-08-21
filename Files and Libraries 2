@@ -1,0 +1,15 @@
+Java Client Library
+
+REST EXAMPLE
+
+java.net.URL url = new java.net.URL(baseURL + "/attachment/create");
+JAXBContext context = JAXBContext.newInstance( AttachmentCreateResponse.class, AttachmentCreateRequest.class );
+java.net.URLConnection connection = url.openConnection();
+connection.setDoOutput(true);
+connection.connect();
+
+Unmarshaller unmarshaller = context.createUnmarshaller();
+Marshaller marshaller = context.createMarshaller();
+marshaller.marshal(attachmentCreateRequest, connection.getOutputStream());
+AttachmentCreateResponse result = (AttachmentCreateResponse) unmarshaller.unmarshal( connection.getInputStream() );
+//handle the result as needed...
