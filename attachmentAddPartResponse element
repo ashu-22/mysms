@@ -1,0 +1,28 @@
+Example JSON
+{
+  "partId" : ...,
+  "url" : "...",
+  "amazonS3Upload" : {
+    "awsAccessKeyId" : "...",
+    "bucketName" : "...",
+    "key" : "...",
+    "acl" : "...",
+    "contentType" : "...",
+    "contentDisposition" : "...",
+    "storageClass" : "...",
+    "policy" : "...",
+    "signature" : "..."
+  },
+  "previewAmazonS3Upload" : {
+    "awsAccessKeyId" : "...",
+    "bucketName" : "...",
+    "key" : "...",
+    "acl" : "...",
+    "contentType" : "...",
+    "contentDisposition" : "...",
+    "storageClass" : "...",
+    "policy" : "...",
+    "signature" : "..."
+  },
+  "errorCode" : ...
+}
