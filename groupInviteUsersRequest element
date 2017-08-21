@@ -1,0 +1,20 @@
+groupInviteUsersRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<groupInviteUsersRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <groupId>...</groupId>
+  <msisdns>...</msisdns>
+  <msisdns>...</msisdns>
+  <!--...more "msisdns" elements...-->
+</groupInviteUsersRequest>
+/***********\
+Example JSON
+{
+  "groupId" : ...,
+  "msisdns" : [ ..., ... ],
+  "authToken" : "...",
+  "apiKey" : "..."
+}
