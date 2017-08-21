@@ -1,0 +1,16 @@
+feedbackSendRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<feedbackSendRequest>
+  <apiKey>...</apiKey>
+  <category>...</category>
+  <message>...</message>
+</feedbackSendRequest>
+/***************\
+Example JSON
+{
+  "category" : "...",
+  "message" : "...",
+  "apiKey" : "..."
+}
