@@ -1,0 +1,16 @@
+groupGetUsersResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<groupGetUsersResponse>
+  <errorCode>...</errorCode>
+  <msisdns>...</msisdns>
+  <msisdns>...</msisdns>
+  <!--...more "msisdns" elements...-->
+</groupGetUsersResponse>
+/************\
+Example JSON
+{
+  "msisdns" : [ ..., ... ],
+  "errorCode" : ...
+}
