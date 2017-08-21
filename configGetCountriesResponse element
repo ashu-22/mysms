@@ -1,12 +1,12 @@
-configGetCountriesRequest element
+configGetCountriesResponse element
 
 Example XML
 <?xml version="1.0" encoding="UTF-8"?>
-<configGetCountriesRequest>
+<configGetCountriesResponse>
   <apiKey>...</apiKey>
   <code>...</code>
   <authToken>...</authToken>
-</configGetCountriesRequest>
+</configGetCountriesResponse>
 /**************\
 Example JSON
 {
