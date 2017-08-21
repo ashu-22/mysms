@@ -1,0 +1,35 @@
+UserSmsConnectorEndpoint
+
+
+/user/sms/connector/connectors/extended/get
+/user/sms/connector/connectors/set
+
+/user/sms/connector/connectors/extended/get
+Mount Point: /rest/user/sms/connector/connectors/extended/get
+
+Request Body
+element: 	userSmsConnectorGetConnectorsExtendedRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userSmsConnectorGetConnectorsExtendedResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/user/sms/connector/connectors/set
+Mount Point: /rest/user/sms/connector/connectors/set      
+
+Request Body
+element: 	userSmsConnectorSetConnectorsRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userSmsConnectorSetConnectorsResponse
+media types: 	*/*
+              application/xml
+              application/json              
