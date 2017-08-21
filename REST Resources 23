@@ -1,0 +1,82 @@
+UserSubscriptionEndpoint
+
+
+ /user/subscription/activate
+ /user/subscription/deactivate
+ /user/subscription/get
+ /user/subscription/launch
+ /user/subscription/log
+ 
+ /user/subscription/activate
+Mount Point: /rest/user/subscription/activate
+
+Request Body
+element: 	userSubscriptionActivateRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userSubscriptionActivateResponse
+media types: 	*/*
+              application/xml
+              application/json              
+
+/user/subscription/deactivate
+Mount Point: /rest/user/subscription/deactivate
+
+Request Body
+element: 	userSubscriptionDeactivateRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userSubscriptionDeactivateResponse
+media types: 	*/*
+              application/xml
+              application/json  
+              
+/user/subscription/get
+Mount Point: /rest/user/subscription/get
+Request Body
+element: 	userSubscriptionGetRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userSubscriptionGetResponse
+media types: 	*/*
+              application/xml
+              application/json    
+              
+/user/subscription/launch
+Mount Point: /rest/user/subscription/launch   
+
+Request Body
+element: 	userSubscriptionLaunchRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+ Response Body
+element: 	userSubscriptionLaunchResponse
+media types: 	*/*
+              application/xml
+              application/json   
+              
+ /user/subscription/log
+Mount Point: /rest/user/subscription/log   
+
+Request Body
+element: 	userSubscriptionLogRequest
+media types: 	*/*
+               application/xml
+               application/json
+               
+ Response Body
+element: 	userSubscriptionLogResponse
+media types: 	*/*
+              application/xml
+              application/json              
