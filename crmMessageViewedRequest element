@@ -1,0 +1,16 @@
+crmMessageViewedRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<crmMessageViewedRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <crmMessageId>...</crmMessageId>
+</crmMessageViewedRequest>
+/************\
+Example JSON
+{
+  "crmMessageId" : ...,
+  "authToken" : "...",
+  "apiKey" : "..."
+}
