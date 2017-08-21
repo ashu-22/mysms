@@ -1,0 +1,16 @@
+msisdnVerifyCheckPinRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<msisdnVerifyCheckPinRequest>
+  <apiKey>...</apiKey>
+  <msisdn>...</msisdn>
+  <pin>...</pin>
+</msisdnVerifyCheckPinRequest>
+/************\
+Example JSON
+{
+  "msisdn" : ...,
+  "pin" : ...,
+  "apiKey" : "..."
+}
