@@ -1,0 +1,17 @@
+FeedbackEndpoint
+
+
+/feedback/send
+Mount Point: /rest/feedback/send
+
+Request Body
+element: 	feedbackSendRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	feedbackSendResponse
+media types: 	*/*
+              application/xml
+              application/json              
