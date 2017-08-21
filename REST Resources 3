@@ -1,0 +1,123 @@
+ExternalAccountEndPoint
+
+
+/external/account/connect
+/external/account/create
+/external/account/delete
+/external/account/disconnect
+/external/account/get/token
+/external/account/initiate
+/external/account/login
+/external/account/validate
+
+/external/account/connect
+Mount Point: /rest/external/account/connect
+Request Body
+element: 	externalAccountConnectRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	externalAccountConnectResponse
+media types: 	*/*
+              application/xml
+              application/json              
+              
+/external/account/create
+Mount Point: /rest/external/account/create
+Request Body
+element: 	externalAccountCreateRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	externalAccountCreateResponse
+media types: 	*/*
+              application/xml
+              application/json 
+              
+/external/account/delete
+Mount Point: /rest/external/account/delete
+Request Body
+element: 	externalAccountDeleteRequest
+media types: 	*/*
+             application/xml
+             application/json
+             
+Response Body
+element: 	externalAccountDeleteResponse
+media types: 	*/*
+             application/xml
+             application/json
+             
+/external/account/disconnect
+Mount Point: /rest/external/account/disconnect
+
+Request Body
+element: 	externalAccountDisconnectRequest
+media types: 	*/*
+             application/xml
+             application/json
+Response Body
+element: 	externalAccountDisconnectResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/external/account/get/token
+Mount Point: /rest/external/account/get/token
+Request Body
+element: 	externalAccountGetTokenRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	externalAccountGetTokenResponse
+media types: 	*/*
+              application/xml
+              application/json 
+              
+/external/account/initiate
+Mount Point: /rest/external/account/initiate
+Request Body
+element: 	externalAccountInitiateRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	externalAccountInitiateResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/external/account/login
+Mount Point: /rest/external/account/login
+Request Body
+element: 	externalAccountLoginRequest
+media types: 	*/*
+             application/xml
+             application/json
+             
+Response Body
+element: 	externalAccountLoginResponse
+media types: 	*/*
+             application/xml
+             application/json
+             
+/external/account/validate
+Mount Point: /rest/external/account/validate
+Request Body
+element: 	externalAccountValidateRequest
+media types: 	*/*
+             application/xml
+             application/json
+             
+Response Body
+element: 	externalAccountValidateResponse
+media types: 	*/*
+             application/xml
+             application/json             
