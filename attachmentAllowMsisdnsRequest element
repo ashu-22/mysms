@@ -1,0 +1,19 @@
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<attachmentAllowMsisdnsRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <attachmentKey>...</attachmentKey>
+  <msisdns>...</msisdns>
+  <msisdns>...</msisdns>
+  <!--...more "msisdns" elements...-->
+</attachmentAllowMsisdnsRequest>
+
+/************JSON***************\
+Example JSON
+{
+  "attachmentKey" : "...",
+  "msisdns" : [ ..., ... ],
+  "authToken" : "...",
+  "apiKey" : "..."
+}
