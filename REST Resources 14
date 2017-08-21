@@ -1,0 +1,32 @@
+SmsConnectorEndpoint
+
+/sms/connector/connectors/get
+/sms/connector/create
+
+/sms/connector/connectors/get
+Mount Point: /rest/sms/connector/connectors/get
+
+Request Body
+element: 	smsConnectorGetConnectorsRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	smsConnectorGetConnectorsResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/sms/connector/create
+Mount Point: /rest/sms/connector/create
+Request Body
+element: 	smsConnectorCreateRequest
+media types: 	*/*
+              application/xml
+              application/json
+Response Body
+element: 	smsConnectorCreateResponse
+media types: 	*/*
+              application/xml
+              application/json
