@@ -1,0 +1,130 @@
+UserCallEndpoint
+
+/user/call/count/unread
+/user/call/delete/all
+/user/call/delete/list
+/user/call/get
+/user/call/insert
+/user/call/read/all
+/user/call/sync
+/user/call/update
+
+/user/call/count/unread
+Mount Point: /rest/user/call/count/unread
+
+Request Body
+element: 	userCallCountUnreadRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userCallCountUnreadResponse
+media types: 	*/*
+              application/xml
+              application/json              
+              
+/user/call/delete/all
+Mount Point: /rest/user/call/delete/all
+
+Request Body
+element: 	userCallDeleteAllRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userCallDeleteAllResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/user/call/delete/list
+Mount Point: /rest/user/call/delete/list
+
+Request Body
+element: 	userCallDeleteListRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userCallDeleteListResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/user/call/get
+Mount Point: /rest/user/call/get
+
+Request Body
+element: 	userCallGetCallsRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userCallGetCallsResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/user/call/insert
+Mount Point: /rest/user/call/insert
+
+Request Body
+element: 	userCallInsertRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userCallInsertResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/user/call/read/all
+Mount Point: /rest/user/call/read/all 
+
+Request Body
+element: 	userCallReadAllRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userCallReadAllResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/user/call/sync
+Mount Point: /rest/user/call/sync
+
+Request Body
+element: 	userCallSyncRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userCallSyncResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/user/call/update
+Mount Point: /rest/user/call/update
+
+Request Body
+element: 	userCallUpdateRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userCallUpdateResponse
+media types: 	*/*
+              application/xml
+              application/json              
