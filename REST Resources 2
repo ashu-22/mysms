@@ -1,0 +1,35 @@
+CrmEndpoint
+
+
+/crm/message/clicked
+/crm/message/viewed
+
+/crm/message/clicked
+Mount Point: /rest/crm/message/clicked
+
+Request Body
+element: crmMessageClickedRequest
+media types: */*
+             application/xml
+             application/json
+             
+Response Body
+element: 	crmMessageClickedResponse
+media types: 	*/*
+             application/xml
+             application/json
+             
+/crm/message/viewed
+Mount Point: /rest/crm/message/viewed
+
+Request Body
+element: 	crmMessageViewedRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	crmMessageViewedResponse
+media types: 	*/*
+              application/xml
+              application/json              
