@@ -1,0 +1,18 @@
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<externalAccountConnectRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <type>...</type>
+  <oauthToken>...</oauthToken>
+  <refreshToken>...</refreshToken>
+</externalAccountConnectRequest>
+/***************\
+Example JSON
+{
+  "type" : ...,
+  "oauthToken" : "...",
+  "refreshToken" : "...",
+  "authToken" : "...",
+  "apiKey" : "..."
+}
