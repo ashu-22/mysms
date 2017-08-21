@@ -1,0 +1,112 @@
+GroupEndpoint
+
+
+/group/create
+/group/get/groups
+/group/get/users
+/group/invite/users
+/group/leave
+/group/rename
+/group/send/message
+
+/group/create
+Mount Point: /rest/group/create
+
+Request Body
+element: 	groupCreateRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	groupCreateResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/group/get/groups
+Mount Point: /rest/group/get/groups
+Request Body
+element: 	groupGetGroupsRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	groupGetGroupsResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/group/get/users
+Mount Point: /rest/group/get/users
+Request Body
+element: 	groupGetUsersRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	groupGetUsersResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/group/invite/users
+Mount Point: /rest/group/invite/users
+Request Body
+element: 	groupInviteUsersRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	groupInviteUsersResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/group/leave
+Mount Point: /rest/group/leave
+Request Body
+element: 	groupLeaveRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	groupLeaveResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/group/rename
+Mount Point: /rest/group/rename
+Request Body
+element: 	groupRenameRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	groupRenameResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/group/send/message
+Mount Point: /rest/group/send/message
+Request Body
+element: 	groupSendMessageRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	groupSendMessageResponse
+media types: 	*/*
+              application/xml
+              application/json              
+              
+              
+              
