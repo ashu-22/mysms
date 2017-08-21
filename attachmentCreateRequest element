@@ -1,0 +1,12 @@
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<attachmentCreateRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+</attachmentCreateRequest>
+/*************\
+Example JSON
+{
+  "authToken" : "...",
+  "apiKey" : "..."
+}
