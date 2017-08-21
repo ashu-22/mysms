@@ -1,0 +1,25 @@
+Ruby Client Library
+
+ JSON REST Example 
+ 
+ require 'net/https'
+require 'uri'
+//...
+
+//read a resource from a REST url
+url = URI.parse("...")
+request = Net::HTTP::Post.new(url.request_uri)
+input = AttachmentCreateRequest.new
+//set up the AttachmentCreateRequest...
+request.body = input.to_json
+request['Content-Type'] = "application/json"
+
+http = Net::HTTP.new(url.host, url.port)
+//set up additional http stuff...
+res = http.start do |ht|
+  ht.request(request)
+end
+
+result = AttachmentCreateResponse.from_json(JSON.parse(res.body))
+
+//handle the result as needed...
