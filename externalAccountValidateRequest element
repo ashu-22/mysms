@@ -1,0 +1,18 @@
+externalAccountValidateRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<externalAccountValidateRequest>
+  <apiKey>...</apiKey>
+  <type>...</type>
+  <oauthToken>...</oauthToken>
+  <oauthVerifier>...</oauthVerifier>
+</externalAccountValidateRequest>
+/******************\
+Example JSON
+{
+  "type" : ...,
+  "oauthToken" : "...",
+  "oauthVerifier" : "...",
+  "apiKey" : "..."
+}
