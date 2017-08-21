@@ -1,0 +1,11 @@
+Example JSON
+{
+  "attachmentKey" : "...",
+  "typeId" : ...,
+  "fileName" : "...",
+  "fileSize" : ...,
+  "preview" : false,
+  "properties" : "...",
+  "authToken" : "...",
+  "apiKey" : "..."
+}
