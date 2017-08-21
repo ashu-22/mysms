@@ -1,0 +1,14 @@
+externalAccountGetTokenResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<externalAccountGetTokenResponse>
+  <errorCode>...</errorCode>
+  <accessToken>...</accessToken>
+</externalAccountGetTokenResponse>
+/*************\
+Example JSON
+{
+  "accessToken" : "...",
+  "errorCode" : ...
+}
