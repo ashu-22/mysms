@@ -1,0 +1,35 @@
+SmsEndpoint
+
+
+/sms/send
+/sms/sponsored/send
+
+/sms/send
+Mount Point: /rest/sms/send
+
+Request Body
+element: 	smsSendRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	smsSendResponse
+media types: 	*/*
+              application/xml
+              application/json              
+
+/sms/sponsored/send
+Mount Point: /rest/sms/sponsored/send
+
+Request Body
+element: 	smsSendSponsoredRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	smsSendSponsoredResponse
+media types: 	*/*
+              application/xml
+              application/json              
