@@ -1,0 +1,67 @@
+UserContactEndpoint
+
+
+/user/contact/contacts/get
+/user/contact/msisdns/a2a/get
+/user/contact/override/update
+/user/contact/sync
+
+/user/contact/contacts/get
+Mount Point: /rest/user/contact/contacts/get
+
+Request Body
+element: 	userContactGetContactsRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userContactGetContactsResponse
+media types: 	*/*
+              application/xml
+              application/json              
+
+/user/contact/msisdns/a2a/get
+Mount Point: /rest/user/contact/msisdns/a2a/get
+
+Request Body
+element: 	userContactGetA2aMsisdnsRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userContactGetA2aMsisdnsResponse
+media types: 	*/*
+              application/xml
+              application/json    
+              
+/user/contact/override/update
+Mount Point: /rest/user/contact/override/update
+
+Request Body
+element: 	userContactOverrideUpdateRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userContactOverrideUpdateResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/user/contact/sync
+Mount Point: /rest/user/contact/sync
+
+Request Body
+element: 	userContactSyncRequest
+media types: 	*/*
+               application/xml
+               application/json
+               
+Response Body
+element: 	userContactSyncResponse
+media types: 	*/*
+              application/xml
+              application/json               
