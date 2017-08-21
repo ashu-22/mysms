@@ -1,0 +1,36 @@
+configGetProductsResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<configGetProductsResponse>
+  <errorCode>...</errorCode>
+  <products>
+    <id>...</id>
+    <countryId>...</countryId>
+    <type>...</type>
+    <name>...</name>
+    <subscriptionLength>...</subscriptionLength>
+    <price>...</price>
+    <available>...</available>
+    <code>...</code>
+  </products>
+  <products>
+    <!--...-->
+  </products>
+  <!--...more "products" elements...-->
+</configGetProductsResponse>
+/*************************\
+Example JSON
+{
+  "products" : [ {
+    "id" : ...,
+    "countryId" : ...,
+    "type" : "...",
+    "name" : "...",
+    "subscriptionLength" : ...,
+    "price" : ...,
+    "available" : false,
+    "code" : "..."
+  }, ... ],
+  "errorCode" : ...
+}
