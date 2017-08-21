@@ -1,0 +1,13 @@
+JAVA JSON CLIENT LIBRARY
+
+REST Example (Raw Jackson) 
+
+java.net.URL url = new java.net.URL(baseURL + "/attachment/create");
+ObjectMapper mapper = new ObjectMapper();
+java.net.URLConnection connection = url.openConnection();
+connection.setDoOutput(true);
+connection.connect();
+
+mapper.writeValue(connection.getOutputStream(), attachmentCreateRequest);
+AttachmentCreateResponse result = (AttachmentCreateResponse) mapper.readValue( connection.getInputStream(), AttachmentCreateResponse.class );
+//handle the result as needed...
