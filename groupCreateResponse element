@@ -1,0 +1,12 @@
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<groupCreateResponse>
+  <errorCode>...</errorCode>
+  <groupId>...</groupId>
+</groupCreateResponse>
+/***********\
+Example JSON
+{
+  "groupId" : ...,
+  "errorCode" : ...
+}
