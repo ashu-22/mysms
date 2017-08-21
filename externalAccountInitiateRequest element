@@ -1,0 +1,16 @@
+externalAccountInitiateRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<externalAccountInitiateRequest>
+  <apiKey>...</apiKey>
+  <type>...</type>
+  <oauthCallbackUrl>...</oauthCallbackUrl>
+</externalAccountInitiateRequest>
+/***************\
+Example JSON
+{
+  "type" : ...,
+  "oauthCallbackUrl" : "...",
+  "apiKey" : "..."
+}
