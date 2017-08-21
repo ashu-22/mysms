@@ -1,0 +1,67 @@
+UserDeviceEndpoint
+
+
+/user/device/client/delete
+/user/device/client/get
+/user/device/create
+/user/device/update
+
+/user/device/client/delete
+Mount Point: /rest/user/device/client/delete
+
+Request Body
+element: 	userDeviceClientDeleteRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userDeviceClientDeleteResponse
+media types: 	*/*
+              application/xml
+              application/json       
+              
+/user/device/client/get
+Mount Point: /rest/user/device/client/get
+
+Request Body
+element: 	userDeviceClientGetRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userDeviceClientGetResponse
+media types: 	*/*
+               application/xml
+               application/json
+               
+/user/device/create
+Mount Point: /rest/user/device/create 
+
+Request Body
+element: 	userDeviceCreateRequest
+media types: 	*/*
+              application/xml
+              application/json
+
+Response Body
+element: 	userDeviceCreateResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/user/device/update
+Mount Point: /rest/user/device/update              
+
+Request Body
+element: 	userDeviceUpdateRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	userDeviceUpdateResponse
+media types: 	*/*
+              application/xml
+              application/json              
