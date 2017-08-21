@@ -1,0 +1,24 @@
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<groupGetGroupsResponse>
+  <errorCode>...</errorCode>
+  <groups>
+    <groupId>...</groupId>
+    <name>...</name>
+    <users>...</users>
+  </groups>
+  <groups>
+    <!--...-->
+  </groups>
+  <!--...more "groups" elements...-->
+</groupGetGroupsResponse>
+/*****************\
+Example JSON
+{
+  "groups" : [ {
+    "groupId" : ...,
+    "name" : "...",
+    "users" : ...
+  }, ... ],
+  "errorCode" : ...
+}
