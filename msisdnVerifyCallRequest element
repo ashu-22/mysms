@@ -1,0 +1,14 @@
+msisdnVerifyCallRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<msisdnVerifyCallRequest>
+  <apiKey>...</apiKey>
+  <msisdn>...</msisdn>
+</msisdnVerifyCallRequest>
+/***************\
+Example JSON
+{
+  "msisdn" : ...,
+  "apiKey" : "..."
+}
