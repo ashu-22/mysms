@@ -1,0 +1,33 @@
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<attachmentGetPartsResponse>
+  <errorCode>...</errorCode>
+  <parts>
+    <partId>...</partId>
+    <typeId>...</typeId>
+    <fileName>...</fileName>
+    <fileSize>...</fileSize>
+    <properties>...</properties>
+    <url>...</url>
+    <previewUrl>...</previewUrl>
+  </parts>
+  <parts>
+    <!--...-->
+  </parts>
+  <!--...more "parts" elements...-->
+</attachmentGetPartsResponse>
+
+/*****************\
+Example JSON
+{
+  "parts" : [ {
+    "partId" : ...,
+    "typeId" : ...,
+    "fileName" : "...",
+    "fileSize" : ...,
+    "properties" : "...",
+    "url" : "...",
+    "previewUrl" : "..."
+  }, ... ],
+  "errorCode" : ...
+}
