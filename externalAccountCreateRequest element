@@ -1,0 +1,20 @@
+externalAccountCreateRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<externalAccountCreateRequest>
+  <apiKey>...</apiKey>
+  <type>...</type>
+  <oauthToken>...</oauthToken>
+  <refreshToken>...</refreshToken>
+  <countryCode>...</countryCode>
+</externalAccountCreateRequest>
+/***********\
+Example JSON
+{
+  "type" : ...,
+  "oauthToken" : "...",
+  "refreshToken" : "...",
+  "countryCode" : "...",
+  "apiKey" : "..."
+}
