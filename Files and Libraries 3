@@ -1,0 +1,9 @@
+ REST Example (Jersey client)
+
+com.sun.jersey.api.client.Client client = com.sun.jersey.api.client.Client.create();
+
+AttachmentCreateResponse result = client.resource(baseUrl + "/attachment/create")
+  .entity(attachmentCreateRequest)
+  .post(AttachmentCreateResponse.class);
+
+//handle the result as needed...
