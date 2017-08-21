@@ -1,0 +1,14 @@
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<groupGetUsersRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <groupId>...</groupId>
+</groupGetUsersRequest>
+/**********\
+Example JSON
+{
+  "groupId" : ...,
+  "authToken" : "...",
+  "apiKey" : "..."
+}
