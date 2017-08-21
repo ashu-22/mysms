@@ -1,0 +1,81 @@
+RemoteSmsEndpoint
+
+
+/remote/sms/cancel
+/remote/sms/failed
+/remote/sms/resend
+/remote/sms/send
+/remote/sms/sent
+
+/remote/sms/cancel
+Mount Point: /rest/remote/sms/cancel
+
+Request Body
+element: 	remoteSmsCancelRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	remoteSmsCancelResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/remote/sms/failed
+Mount Point: /rest/remote/sms/failed
+
+Request Body
+element: 	remoteSmsFailedRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	remoteSmsFailedResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/remote/sms/resend
+Mount Point: /rest/remote/sms/resend
+
+Request Body
+element: 	remoteSmsResendRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	remoteSmsResendResponse
+media types: 	*/*
+              application/xml
+              application/json   
+              
+/remote/sms/send
+Mount Point: /rest/remote/sms/send
+Request Body
+element: 	remoteSmsSendRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	remoteSmsSendResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/remote/sms/sent
+Mount Point: /rest/remote/sms/sent
+Request Body
+element: 	remoteSmsSentRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	remoteSmsSentResponse
+media types: 	*/*
+               application/xml
+               application/json              
