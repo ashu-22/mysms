@@ -1,0 +1,16 @@
+externalAccountDisconnectRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<externalAccountDisconnectRequest>
+  <apiKey>...</apiKey>
+  <type>...</type>
+  <oauthToken>...</oauthToken>
+</externalAccountDisconnectRequest>
+/*******************\
+Example JSON
+{
+  "type" : ...,
+  "oauthToken" : "...",
+  "apiKey" : "..."
+}
