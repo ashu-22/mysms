@@ -1,0 +1,34 @@
+ProUserEndpoint
+
+
+/pro/user/add
+/pro/user/check
+
+/pro/user/add
+Mount Point: /rest/pro/user/add
+
+Request Body
+element: 	proUserAddRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	proUserAddResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/pro/user/check
+Mount Point: /rest/pro/user/check
+Request Body
+element: 	proUserCheckRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	proUserCheckResponse
+media types: 	*/*
+              application/xml
+              application/json              
