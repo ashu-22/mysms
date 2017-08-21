@@ -1,0 +1,31 @@
+attachmentAddPartResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<attachmentAddPartResponse>
+  <errorCode>...</errorCode>
+  <partId>...</partId>
+  <url>...</url>
+  <amazonS3Upload>
+    <awsAccessKeyId>...</awsAccessKeyId>
+    <bucketName>...</bucketName>
+    <key>...</key>
+    <acl>...</acl>
+    <contentType>...</contentType>
+    <contentDisposition>...</contentDisposition>
+    <storageClass>...</storageClass>
+    <policy>...</policy>
+    <signature>...</signature>
+  </amazonS3Upload>
+  <previewAmazonS3Upload>
+    <awsAccessKeyId>...</awsAccessKeyId>
+    <bucketName>...</bucketName>
+    <key>...</key>
+    <acl>...</acl>
+    <contentType>...</contentType>
+    <contentDisposition>...</contentDisposition>
+    <storageClass>...</storageClass>
+    <policy>...</policy>
+    <signature>...</signature>
+  </previewAmazonS3Upload>
+</attachmentAddPartResponse>
