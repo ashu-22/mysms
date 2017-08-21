@@ -1,0 +1,25 @@
+MessageEndpoint
+
+/message/send
+
+
+/message/send
+Mount Point: /rest/message/send
+
+Response Body
+element: 	messageSendResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+Request Body
+element: 	messageSendRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	messageSendResponse
+media types: 	*/*
+              application/xml
+              application/json              
