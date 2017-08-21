@@ -1,0 +1,14 @@
+UserEndpoint
+
+/user/balance/get
+/user/create
+/user/delete
+/user/feature/get
+/user/login
+/user/msisdn/verify
+/user/password/change
+/user/password/reset
+/user/setting/get
+/user/setting/set
+/user/smsrouting/get
+/user/smsrouting/set
