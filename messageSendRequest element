@@ -1,0 +1,19 @@
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<messageSendRequest>
+  <apiKey>...</apiKey>
+  <msisdn>...</msisdn>
+  <password>...</password>
+  <recipient>...</recipient>
+  <message>...</message>
+  <dateSendOn>...</dateSendOn>
+</messageSendRequest>
+Example JSON
+{
+  "msisdn" : ...,
+  "password" : "...",
+  "recipient" : "...",
+  "message" : "...",
+  "dateSendOn" : "...",
+  "apiKey" : "..."
+}
