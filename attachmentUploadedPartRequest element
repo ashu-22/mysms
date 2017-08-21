@@ -1,0 +1,17 @@
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<attachmentUploadedPartRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <attachmentKey>...</attachmentKey>
+  <partId>...</partId>
+</attachmentUploadedPartRequest>
+
+/********************\
+Example JSON
+{
+  "attachmentKey" : "...",
+  "partId" : ...,
+  "authToken" : "...",
+  "apiKey" : "..."
+}
