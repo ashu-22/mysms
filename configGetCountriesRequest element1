@@ -1,0 +1,16 @@
+configGetCountriesRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<configGetCountriesRequest>
+  <apiKey>...</apiKey>
+  <code>...</code>
+  <authToken>...</authToken>
+</configGetCountriesRequest>
+/**************\
+Example JSON
+{
+  "code" : "...",
+  "authToken" : "...",
+  "apiKey" : "..."
+}
