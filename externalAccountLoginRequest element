@@ -1,0 +1,18 @@
+externalAccountLoginRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<externalAccountLoginRequest>
+  <apiKey>...</apiKey>
+  <type>...</type>
+  <oauthToken>...</oauthToken>
+  <languageCode>...</languageCode>
+</externalAccountLoginRequest>
+/**************\
+Example JSON
+{
+  "type" : ...,
+  "oauthToken" : "...",
+  "languageCode" : "...",
+  "apiKey" : "..."
+}
