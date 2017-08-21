@@ -1,0 +1,22 @@
+groupLeaveRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<groupLeaveRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <groupId>...</groupId>
+  <groupIds>...</groupIds>
+  <groupIds>...</groupIds>
+  <!--...more "groupIds" elements...-->
+  <quiet>...</quiet>
+</groupLeaveRequest>
+/************\
+Example JSON
+{
+  "groupId" : ...,
+  "groupIds" : [ ..., ... ],
+  "quiet" : false,
+  "authToken" : "...",
+  "apiKey" : "..."
+}
