@@ -1,0 +1,12 @@
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<attachmentAddPartRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <attachmentKey>...</attachmentKey>
+  <typeId>...</typeId>
+  <fileName>...</fileName>
+  <fileSize>...</fileSize>
+  <preview>...</preview>
+  <properties>...</properties>
+</attachmentAddPartRequest>
