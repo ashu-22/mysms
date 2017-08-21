@@ -1,0 +1,80 @@
+RegistrationEndpoint
+
+
+/registration/activate
+/registration/activate/msisdn
+/registration/check/msisdn
+/registration/create
+/registration/key/create
+
+/registration/activate
+Mount Point: /rest/registration/activate
+
+Request Body
+element: 	registrationActivateRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	registrationActivateResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/registration/activate/msisdn
+Mount Point: /rest/registration/activate/msisdn
+
+Request Body
+element: 	registrationActivateMsisdnRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	registrationActivateMsisdnResponse
+media types: 	*/*
+              application/xml
+              application/json
+
+/registration/check/msisdn
+Mount Point: /rest/registration/check/msisdn
+Request Body
+element: 	registrationCheckMsisdnRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	registrationCheckMsisdnResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/registration/create
+Mount Point: /rest/registration/create
+Request Body
+element: 	registrationCreateRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	registrationCreateResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/registration/key/create
+Mount Point: /rest/registration/key/create
+Request Body
+element: 	registrationCreateKeyRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	registrationCreateKeyResponse
+media types: 	*/*
+              application/xml
+              application/json              
