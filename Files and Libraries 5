@@ -1,0 +1,31 @@
+Objective C Client Library
+
+REST XML Example 
+ 
+#import <mysmsapi.h>
+//...
+
+MYSMSAPINS0AttachmentCreateRequest *requestElement = [[MYSMSAPINS0AttachmentCreateRequest alloc] init];
+NSData *requestData; //data holding the XML for the request.
+MYSMSAPINS0AttachmentCreateResponse *responseElement;
+NSData *responseData; //data holding the XML from the response.
+NSURL *baseURL = ...; //the base url including the host and subpath.
+NSURL *url = [NSURL URLWithString: @"/attachment/create" relativeToURL: baseURL];
+NSMutableURLRequest *request = [[NSMutableURLRequest alloc] initWithURL:url];
+NSURLResponse *response = nil;
+NSError *error = NULL;
+[request setHTTPMethod: @"POST"];
+[request setValue:@"application/xml" forHTTPHeaderField:@"Content-Type"];  
+
+//set up the MYSMSAPINS0AttachmentCreateRequest...
+
+requestData = [requestElement writeToXML];
+[request setHTTPBody: requestData];
+
+//this example uses a synchronous request,
+//but you'll probably want to use an asynchronous call
+responseData = [NSURLConnection sendSynchronousRequest:request returningResponse:&response error:&error];
+MYSMSAPINS0AttachmentCreateResponse *responseElement = [MYSMSAPINS0AttachmentCreateResponse readFromXML: responseData];
+[responseElement retain];
+
+//handle the response as needed... 
