@@ -1,0 +1,21 @@
+C Client Library
+
+
+REST XML Example
+#include <mysmsapi.c>
+//...
+
+xmlTextWriterPtr writer = ...; //set up the writer to the url.
+mysmsapi_ns0_attachmentCreateRequest *request_element = ...;
+xmlTextReaderPtr reader = ...; //set up the reader to the url.
+mysmsapi_ns0_attachmentCreateResponse *response_element = ...;
+//set up the mysmsapi_ns0_attachmentCreateRequest...
+xml_write_mysmsapi_ns0_attachmentCreateRequest(writer, request_element);
+response_element = xml_read_mysmsapi_ns0_attachmentCreateResponse(reader);
+
+//handle the response as needed...
+
+//free the mysmsapi_ns0_attachmentCreateRequest
+free_mysmsapi_ns0_attachmentCreateRequest(request_element);
+//free the mysmsapi_ns0_attachmentCreateResponse
+free_mysmsapi_ns0_attachmentCreateResponse(response_element);
