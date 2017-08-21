@@ -1,0 +1,66 @@
+ShopEndpoint
+
+
+/shop/payment/check
+/shop/payment/methods/get
+/shop/payment/start
+/shop/token/redeem
+
+/shop/payment/check
+Mount Point: /rest/shop/payment/check
+
+Request Body
+element: 	shopCheckPaymentRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	shopCheckPaymentResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/shop/payment/methods/get
+Mount Point: /rest/shop/payment/methods/get
+
+Request Body
+element: 	shopGetPaymentMethodsRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	shopGetPaymentMethodsResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/shop/payment/start
+Mount Point: /rest/shop/payment/start
+
+Request Body
+element: 	shopStartPaymentRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	shopStartPaymentResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/shop/token/redeem
+Mount Point: /rest/shop/token/redeem
+
+element: 	shopRedeemTokenRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	shopRedeemTokenResponse
+media types: 	*/*
+              application/xml
+              application/json              
