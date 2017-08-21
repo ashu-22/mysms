@@ -1,0 +1,12 @@
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<externalAccountValidateResponse>
+  <errorCode>...</errorCode>
+  <oauthToken>...</oauthToken>
+</externalAccountValidateResponse>
+/******\
+Example JSON
+{
+  "oauthToken" : "...",
+  "errorCode" : ...
+}
