@@ -1,0 +1,19 @@
+TypingEndpoint
+
+
+/typing/fire/event
+
+/typing/fire/event
+Mount Point: /rest/typing/fire/event
+
+Request Body
+element: 	typingFireEventRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	typingFireEventResponse
+media types: 	*/*
+               application/xml
+               application/json              
