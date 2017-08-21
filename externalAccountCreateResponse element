@@ -1,0 +1,28 @@
+externalAccountCreateResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<externalAccountCreateResponse>
+  <errorCode>...</errorCode>
+  <msisdn>...</msisdn>
+  <authToken>...</authToken>
+  <info>...</info>
+  <dateVerified>...</dateVerified>
+  <countryCode>...</countryCode>
+  <dialPrefix>...</dialPrefix>
+  <currencyCode>...</currencyCode>
+  <email>...</email>
+</externalAccountCreateResponse>
+/*************\
+Example JSON
+{
+  "msisdn" : ...,
+  "authToken" : "...",
+  "info" : "...",
+  "dateVerified" : "...",
+  "countryCode" : "...",
+  "dialPrefix" : ...,
+  "currencyCode" : "...",
+  "email" : "...",
+  "errorCode" : ...
+}
