@@ -1,0 +1,49 @@
+RemoteCallEndpoint
+
+
+/remote/call/control
+/remote/call/failed
+/remote/call/initiate
+
+/remote/call/control
+Mount Point: /rest/remote/call/control
+
+Request Body
+element: 	remoteCallControlRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	remoteCallControlResponse
+media types: 	*/*
+              application/xml
+              application/json              
+              
+/remote/call/failed
+Mount Point: /rest/remote/call/failed
+Request Body
+element: 	remoteCallFailedRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	remoteCallFailedResponse
+media types: 	*/*
+              application/xml
+              application/json 
+              
+/remote/call/initiate
+Mount Point: /rest/remote/call/initiate 
+Request Body
+element: 	remoteCallInitiateRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	remoteCallInitiateResponse
+media types: 	*/*
+              application/xml
+              application/json              
