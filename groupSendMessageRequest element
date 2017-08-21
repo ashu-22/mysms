@@ -1,0 +1,22 @@
+groupSendMessageRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<groupSendMessageRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <groupId>...</groupId>
+  <message>...</message>
+  <dateSendOn>...</dateSendOn>
+  <deviceId>...</deviceId>
+</groupSendMessageRequest>
+/*************\
+Example JSON
+{
+  "groupId" : ...,
+  "message" : "...",
+  "dateSendOn" : "...",
+  "deviceId" : ...,
+  "authToken" : "...",
+  "apiKey" : "..."
+}
