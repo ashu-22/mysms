@@ -1,0 +1,12 @@
+crmMessageViewedResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<crmMessageViewedResponse>
+  <errorCode>...</errorCode>
+</crmMessageViewedResponse>
+/*************\
+Example JSON
+{
+  "errorCode" : ...
+}
