@@ -1,0 +1,35 @@
+ConfigEndpoint
+
+
+/config/countries/get
+/config/products/get
+
+/config/countries/get
+Mount Point: /rest/config/countries/get
+
+Request Body
+element: 	configGetCountriesRequest
+media types: */*
+             application/xml
+             application/json
+             
+Response Body
+element: 	configGetCountriesResponse
+media types: 	*/*
+              application/xml
+              application/json
+              
+/config/products/get
+Mount Point: /rest/config/products/get
+
+Request Body
+element: 	configGetProductsRequest
+media types: 	*/*
+              application/xml
+              application/json
+              
+Response Body
+element: 	configGetProductsResponse
+media types: 	*/*
+              application/xml
+              application/json              
