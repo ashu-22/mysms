@@ -1,0 +1,10 @@
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<msisdnVerifyCheckPinResponse>
+  <errorCode>...</errorCode>
+</msisdnVerifyCheckPinResponse>
+/**\
+Example JSON
+{
+  "errorCode" : ...
+}
