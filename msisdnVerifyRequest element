@@ -1,0 +1,16 @@
+msisdnVerifyRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<msisdnVerifyRequest>
+  <apiKey>...</apiKey>
+  <msisdn>...</msisdn>
+  <flashSms>...</flashSms>
+</msisdnVerifyRequest>
+/***\
+Example JSON
+{
+  "msisdn" : ...,
+  "flashSms" : false,
+  "apiKey" : "..."
+}
