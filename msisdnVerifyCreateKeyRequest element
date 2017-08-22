@@ -1,0 +1,12 @@
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<msisdnVerifyCreateKeyRequest>
+  <apiKey>...</apiKey>
+  <provider>...</provider>
+</msisdnVerifyCreateKeyRequest>
+/****\
+Example JSON
+{
+  "provider" : "...",
+  "apiKey" : "..."
+}
