@@ -1,0 +1,16 @@
+proUserAddRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<proUserAddRequest>
+  <apiKey>...</apiKey>
+  <proType>...</proType>
+  <externalId>...</externalId>
+</proUserAddRequest>
+/***********\
+Example JSON
+{
+  "proType" : ...,
+  "externalId" : "...",
+  "apiKey" : "..."
+}
