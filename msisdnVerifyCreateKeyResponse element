@@ -1,0 +1,14 @@
+msisdnVerifyCreateKeyResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<msisdnVerifyCreateKeyResponse>
+  <errorCode>...</errorCode>
+  <key>...</key>
+</msisdnVerifyCreateKeyResponse>
+/***\
+Example JSON
+{
+  "key" : "...",
+  "errorCode" : ...
+}
