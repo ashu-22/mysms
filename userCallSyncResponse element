@@ -1,0 +1,52 @@
+userCallSyncResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userCallSyncResponse>
+  <errorCode>...</errorCode>
+  <syncs>
+    <operation>...</operation>
+    <callId>...</callId>
+    <deviceCallId>...</deviceCallId>
+    <address>...</address>
+    <incoming>...</incoming>
+    <read>...</read>
+    <duration>...</duration>
+    <status>...</status>
+    <dateCall>...</dateCall>
+  </syncs>
+  <syncs>
+    <!--...-->
+  </syncs>
+  <!--...more "syncs" elements...-->
+  <syncAcks>
+    <operation>...</operation>
+    <callId>...</callId>
+    <deviceCallId>...</deviceCallId>
+  </syncAcks>
+  <syncAcks>
+    <!--...-->
+  </syncAcks>
+  <!--...more "syncAcks" elements...-->
+</userCallSyncResponse>
+/********\
+Example JSON
+{
+  "syncs" : [ {
+    "operation" : ...,
+    "callId" : ...,
+    "deviceCallId" : ...,
+    "address" : "...",
+    "incoming" : false,
+    "read" : false,
+    "duration" : ...,
+    "status" : ...,
+    "dateCall" : "..."
+  }, ... ],
+  "syncAcks" : [ {
+    "operation" : ...,
+    "callId" : ...,
+    "deviceCallId" : ...
+  }, ... ],
+  "errorCode" : ...
+}
