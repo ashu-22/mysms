@@ -1,0 +1,14 @@
+registrationCheckMsisdnRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<registrationCheckMsisdnRequest>
+  <apiKey>...</apiKey>
+  <msisdn>...</msisdn>
+</registrationCheckMsisdnRequest>
+/*******\
+Example JSON
+{
+  "msisdn" : ...,
+  "apiKey" : "..."
+}
