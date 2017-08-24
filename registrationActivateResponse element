@@ -1,0 +1,16 @@
+registrationActivateResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<registrationActivateResponse>
+  <errorCode>...</errorCode>
+  <msisdn>...</msisdn>
+  <password>...</password>
+</registrationActivateResponse>
+/******\
+Example JSON
+{
+  "msisdn" : ...,
+  "password" : "...",
+  "errorCode" : ...
+}
