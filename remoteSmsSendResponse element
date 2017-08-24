@@ -1,0 +1,28 @@
+remoteSmsSendResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<remoteSmsSendResponse>
+  <errorCode>...</errorCode>
+  <requestId>...</requestId>
+  <dateSent>...</dateSent>
+  <remoteSmsSendAcks>
+    <recipient>...</recipient>
+    <messageId>...</messageId>
+  </remoteSmsSendAcks>
+  <remoteSmsSendAcks>
+    <!--...-->
+  </remoteSmsSendAcks>
+  <!--...more "remoteSmsSendAcks" elements...-->
+</remoteSmsSendResponse>
+/******\
+Example JSON
+{
+  "requestId" : ...,
+  "dateSent" : "...",
+  "remoteSmsSendAcks" : [ {
+    "recipient" : "...",
+    "messageId" : ...
+  }, ... ],
+  "errorCode" : ...
+}
