@@ -1,0 +1,16 @@
+smsConnectorGetConnectorsRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<smsConnectorGetConnectorsRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <os>...</os>
+</smsConnectorGetConnectorsRequest>
+/*****\
+Example JSON
+{
+  "os" : ...,
+  "authToken" : "...",
+  "apiKey" : "..."
+}
