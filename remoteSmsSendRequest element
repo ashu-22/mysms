@@ -1,0 +1,26 @@
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<remoteSmsSendRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <recipients>...</recipients>
+  <recipients>...</recipients>
+  <!--...more "recipients" elements...-->
+  <message>...</message>
+  <dateSendOn>...</dateSendOn>
+  <encoding>...</encoding>
+  <smsConnectorId>...</smsConnectorId>
+  <store>...</store>
+</remoteSmsSendRequest>
+/*********\
+Example JSON
+{
+  "recipients" : [ "...", ... ],
+  "message" : "...",
+  "dateSendOn" : "...",
+  "encoding" : ...,
+  "smsConnectorId" : ...,
+  "store" : false,
+  "authToken" : "...",
+  "apiKey" : "..."
+}
