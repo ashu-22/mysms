@@ -1,0 +1,16 @@
+shopCheckPaymentResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<shopCheckPaymentResponse>
+  <errorCode>...</errorCode>
+  <payed>...</payed>
+  <redirectUrl>...</redirectUrl>
+</shopCheckPaymentResponse>
+/********\
+Example JSON
+{
+  "payed" : false,
+  "redirectUrl" : "...",
+  "errorCode" : ...
+}
