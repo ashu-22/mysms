@@ -1,0 +1,28 @@
+smsSendRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<smsSendRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <recipients>...</recipients>
+  <recipients>...</recipients>
+  <!--...more "recipients" elements...-->
+  <message>...</message>
+  <encoding>...</encoding>
+  <cod>...</cod>
+  <deviceId>...</deviceId>
+  <test>...</test>
+</smsSendRequest>
+/*******\
+Example JSON
+{
+  "recipients" : [ ..., ... ],
+  "message" : "...",
+  "encoding" : ...,
+  "cod" : false,
+  "deviceId" : ...,
+  "test" : false,
+  "authToken" : "...",
+  "apiKey" : "..."
+}
