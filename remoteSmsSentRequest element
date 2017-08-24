@@ -1,0 +1,30 @@
+remoteSmsSentRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<remoteSmsSentRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <requestId>...</requestId>
+  <deviceId>...</deviceId>
+  <deviceMessageId>...</deviceMessageId>
+  <address>...</address>
+  <message>...</message>
+  <origin>...</origin>
+  <status>...</status>
+  <dateSent>...</dateSent>
+</remoteSmsSentRequest>
+/**********\
+Example JSON
+{
+  "requestId" : ...,
+  "deviceId" : ...,
+  "deviceMessageId" : ...,
+  "address" : "...",
+  "message" : "...",
+  "origin" : ...,
+  "status" : ...,
+  "dateSent" : "...",
+  "authToken" : "...",
+  "apiKey" : "..."
+}
