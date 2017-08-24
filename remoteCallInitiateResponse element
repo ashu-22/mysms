@@ -1,0 +1,14 @@
+remoteCallInitiateResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<remoteCallInitiateResponse>
+  <errorCode>...</errorCode>
+  <requestId>...</requestId>
+</remoteCallInitiateResponse>
+/******\
+Example JSON
+{
+  "requestId" : ...,
+  "errorCode" : ...
+}
