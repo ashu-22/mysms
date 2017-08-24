@@ -1,0 +1,14 @@
+remoteSmsSentResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<remoteSmsSentResponse>
+  <errorCode>...</errorCode>
+  <messageId>...</messageId>
+</remoteSmsSentResponse>
+/*****\
+Example JSON
+{
+  "messageId" : ...,
+  "errorCode" : ...
+}
