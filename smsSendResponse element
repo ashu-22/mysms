@@ -1,0 +1,28 @@
+smsSendResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<smsSendResponse>
+  <errorCode>...</errorCode>
+  <sent>...</sent>
+  <dateSent>...</dateSent>
+  <smsSendAcks>
+    <recipient>...</recipient>
+    <messageId>...</messageId>
+  </smsSendAcks>
+  <smsSendAcks>
+    <!--...-->
+  </smsSendAcks>
+  <!--...more "smsSendAcks" elements...-->
+</smsSendResponse>
+/*****\
+Example JSON
+{
+  "sent" : ...,
+  "dateSent" : "...",
+  "smsSendAcks" : [ {
+    "recipient" : ...,
+    "messageId" : ...
+  }, ... ],
+  "errorCode" : ...
+}
