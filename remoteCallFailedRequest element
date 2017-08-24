@@ -1,0 +1,18 @@
+remoteCallFailedRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<remoteCallFailedRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <requestId>...</requestId>
+  <errorMessage>...</errorMessage>
+</remoteCallFailedRequest>
+/******\
+Example JSON
+{
+  "requestId" : ...,
+  "errorMessage" : "...",
+  "authToken" : "...",
+  "apiKey" : "..."
+}
