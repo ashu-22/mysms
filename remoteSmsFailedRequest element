@@ -1,0 +1,20 @@
+remoteSmsFailedRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<remoteSmsFailedRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <requestId>...</requestId>
+  <smsConnectorId>...</smsConnectorId>
+  <errorMessage>...</errorMessage>
+</remoteSmsFailedRequest>
+/********\
+Example JSON
+{
+  "requestId" : ...,
+  "smsConnectorId" : ...,
+  "errorMessage" : "...",
+  "authToken" : "...",
+  "apiKey" : "..."
+}
