@@ -1,0 +1,26 @@
+shopGetPaymentMethodsResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<shopGetPaymentMethodsResponse>
+  <errorCode>...</errorCode>
+  <paymentMethods>
+    <id>...</id>
+    <name>...</name>
+    <interactive>...</interactive>
+  </paymentMethods>
+  <paymentMethods>
+    <!--...-->
+  </paymentMethods>
+  <!--...more "paymentMethods" elements...-->
+</shopGetPaymentMethodsResponse>
+/*******\
+Example JSON
+{
+  "paymentMethods" : [ {
+    "id" : ...,
+    "name" : "...",
+    "interactive" : false
+  }, ... ],
+  "errorCode" : ...
+}
