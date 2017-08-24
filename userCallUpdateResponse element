@@ -1,0 +1,12 @@
+userCallUpdateResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userCallUpdateResponse>
+  <errorCode>...</errorCode>
+</userCallUpdateResponse>
+/***\
+Example JSON
+{
+  "errorCode" : ...
+}
