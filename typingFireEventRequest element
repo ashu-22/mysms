@@ -1,0 +1,16 @@
+typingFireEventRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<typingFireEventRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <recipient>...</recipient>
+</typingFireEventRequest>
+/*********\
+Example JSON
+{
+  "recipient" : "...",
+  "authToken" : "...",
+  "apiKey" : "..."
+}
