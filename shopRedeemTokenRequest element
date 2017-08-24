@@ -1,0 +1,16 @@
+shopRedeemTokenRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<shopRedeemTokenRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <token>...</token>
+</shopRedeemTokenRequest>
+/******\
+Example JSON
+{
+  "token" : "...",
+  "authToken" : "...",
+  "apiKey" : "..."
+}
