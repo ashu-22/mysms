@@ -1,0 +1,16 @@
+shopRedeemTokenResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<shopRedeemTokenResponse>
+  <errorCode>...</errorCode>
+  <smsFree>...</smsFree>
+  <subscriptionLength>...</subscriptionLength>
+</shopRedeemTokenResponse>
+/*******\
+Example JSON
+{
+  "smsFree" : ...,
+  "subscriptionLength" : ...,
+  "errorCode" : ...
+}
