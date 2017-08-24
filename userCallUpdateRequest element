@@ -1,0 +1,22 @@
+userCallUpdateRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userCallUpdateRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <callId>...</callId>
+  <read>...</read>
+  <duration>...</duration>
+  <status>...</status>
+</userCallUpdateRequest>
+/******\
+Example JSON
+{
+  "callId" : ...,
+  "read" : false,
+  "duration" : ...,
+  "status" : ...,
+  "authToken" : "...",
+  "apiKey" : "..."
+}
