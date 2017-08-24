@@ -1,0 +1,30 @@
+smsConnectorCreateRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<smsConnectorCreateRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <os>...</os>
+  <packageName>...</packageName>
+  <subConnectorId>...</subConnectorId>
+  <name>...</name>
+  <maxLength>...</maxLength>
+  <maxRecipients>...</maxRecipients>
+  <encodings>...</encodings>
+  <recipientRegex>...</recipientRegex>
+</smsConnectorCreateRequest>
+/****\
+Example JSON
+{
+  "os" : ...,
+  "packageName" : "...",
+  "subConnectorId" : "...",
+  "name" : "...",
+  "maxLength" : ...,
+  "maxRecipients" : ...,
+  "encodings" : ...,
+  "recipientRegex" : "...",
+  "authToken" : "...",
+  "apiKey" : "..."
+}
