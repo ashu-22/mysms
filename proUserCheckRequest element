@@ -1,0 +1,18 @@
+proUserCheckRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<proUserCheckRequest>
+  <apiKey>...</apiKey>
+  <proType>...</proType>
+  <externalIds>...</externalIds>
+  <externalIds>...</externalIds>
+  <!--...more "externalIds" elements...-->
+</proUserCheckRequest>
+/********\
+Example JSON
+{
+  "proType" : ...,
+  "externalIds" : [ "...", ... ],
+  "apiKey" : "..."
+}
