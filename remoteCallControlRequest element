@@ -1,0 +1,18 @@
+remoteCallControlRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<remoteCallControlRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <callId>...</callId>
+  <action>...</action>
+</remoteCallControlRequest>
+/********\
+Example JSON
+{
+  "callId" : ...,
+  "action" : ...,
+  "authToken" : "...",
+  "apiKey" : "..."
+}
