@@ -1,0 +1,40 @@
+smsConnectorGetConnectorsResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<smsConnectorGetConnectorsResponse>
+  <errorCode>...</errorCode>
+  <connectors>
+    <smsConnectorId>...</smsConnectorId>
+    <packageName>...</packageName>
+    <subConnectorId>...</subConnectorId>
+    <name>...</name>
+    <color>...</color>
+    <maxLength>...</maxLength>
+    <maxRecipients>...</maxRecipients>
+    <encodings>...</encodings>
+    <recipientRegex>...</recipientRegex>
+    <popular>...</popular>
+  </connectors>
+  <connectors>
+    <!--...-->
+  </connectors>
+  <!--...more "connectors" elements...-->
+</smsConnectorGetConnectorsResponse>
+/******\
+Example JSON
+{
+  "connectors" : [ {
+    "smsConnectorId" : ...,
+    "packageName" : "...",
+    "subConnectorId" : "...",
+    "name" : "...",
+    "color" : ...,
+    "maxLength" : ...,
+    "maxRecipients" : ...,
+    "encodings" : ...,
+    "recipientRegex" : "...",
+    "popular" : false
+  }, ... ],
+  "errorCode" : ...
+}
