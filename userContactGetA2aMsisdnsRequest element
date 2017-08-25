@@ -1,0 +1,14 @@
+userContactGetA2aMsisdnsRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userContactGetA2aMsisdnsRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+</userContactGetA2aMsisdnsRequest>
+/*******\
+Example JSON
+{
+  "authToken" : "...",
+  "apiKey" : "..."
+}
