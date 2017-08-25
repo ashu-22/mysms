@@ -1,0 +1,16 @@
+userContactGetA2aMsisdnsResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userContactGetA2aMsisdnsResponse>
+  <errorCode>...</errorCode>
+  <msisdns>...</msisdns>
+  <msisdns>...</msisdns>
+  <!--...more "msisdns" elements...-->
+</userContactGetA2aMsisdnsResponse>
+/******\
+Example JSON
+{
+  "msisdns" : [ "...", ... ],
+  "errorCode" : ...
+}
