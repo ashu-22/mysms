@@ -1,0 +1,52 @@
+userContactGetContactsResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userContactGetContactsResponse>
+  <errorCode>...</errorCode>
+  <contacts>
+    <contactId>...</contactId>
+    <name>...</name>
+    <msisdns>...</msisdns>
+    <msisdns>...</msisdns>
+    <!--...more "msisdns" elements...-->
+    <msisdnsType>...</msisdnsType>
+    <msisdnsType>...</msisdnsType>
+    <!--...more "msisdnsType" elements...-->
+    <contactGroups>...</contactGroups>
+    <contactGroups>...</contactGroups>
+    <!--...more "contactGroups" elements...-->
+    <avatarUrl>...</avatarUrl>
+  </contacts>
+  <contacts>
+    <!--...-->
+  </contacts>
+  <!--...more "contacts" elements...-->
+  <contactOverrides>
+    <msisdn>...</msisdn>
+    <name>...</name>
+    <avatar>...</avatar>
+  </contactOverrides>
+  <contactOverrides>
+    <!--...-->
+  </contactOverrides>
+  <!--...more "contactOverrides" elements...-->
+</userContactGetContactsResponse>
+/************\
+Example JSON
+{
+  "contacts" : [ {
+    "contactId" : ...,
+    "name" : "...",
+    "msisdns" : [ "...", ... ],
+    "msisdnsType" : [ "...", ... ],
+    "contactGroups" : [ "...", ... ],
+    "avatarUrl" : "..."
+  }, ... ],
+  "contactOverrides" : [ {
+    "msisdn" : "...",
+    "name" : "...",
+    "avatar" : ...
+  }, ... ],
+  "errorCode" : ...
+}
