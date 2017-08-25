@@ -1,0 +1,24 @@
+userContactOverrideUpdateRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userContactOverrideUpdateRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <contactOverride>
+    <msisdn>...</msisdn>
+    <name>...</name>
+    <avatar>...</avatar>
+  </contactOverride>
+</userContactOverrideUpdateRequest>
+/********\
+Example JSON
+{
+  "contactOverride" : {
+    "msisdn" : "...",
+    "name" : "...",
+    "avatar" : ...
+  },
+  "authToken" : "...",
+  "apiKey" : "..."
+}
