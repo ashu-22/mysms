@@ -1,0 +1,58 @@
+userContactSyncResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userContactSyncResponse>
+  <errorCode>...</errorCode>
+  <syncs>
+    <operation>...</operation>
+    <contactId>...</contactId>
+    <deviceContactId>...</deviceContactId>
+    <name>...</name>
+    <msisdns>...</msisdns>
+    <msisdns>...</msisdns>
+    <!--...more "msisdns" elements...-->
+    <msisdnsType>...</msisdnsType>
+    <msisdnsType>...</msisdnsType>
+    <!--...more "msisdnsType" elements...-->
+    <contactGroups>...</contactGroups>
+    <contactGroups>...</contactGroups>
+    <!--...more "contactGroups" elements...-->
+    <avatarMimeType>...</avatarMimeType>
+    <avatarData>...</avatarData>
+  </syncs>
+  <syncs>
+    <!--...-->
+  </syncs>
+  <!--...more "syncs" elements...-->
+  <syncAcks>
+    <operation>...</operation>
+    <contactId>...</contactId>
+    <deviceContactId>...</deviceContactId>
+  </syncAcks>
+  <syncAcks>
+    <!--...-->
+  </syncAcks>
+  <!--...more "syncAcks" elements...-->
+</userContactSyncResponse>
+/******\
+Example JSON
+{
+  "syncs" : [ {
+    "operation" : ...,
+    "contactId" : ...,
+    "deviceContactId" : ...,
+    "name" : "...",
+    "msisdns" : [ "...", ... ],
+    "msisdnsType" : [ "...", ... ],
+    "contactGroups" : [ "...", ... ],
+    "avatarMimeType" : ...,
+    "avatarData" : "..."
+  }, ... ],
+  "syncAcks" : [ {
+    "operation" : ...,
+    "contactId" : ...,
+    "deviceContactId" : ...
+  }, ... ],
+  "errorCode" : ...
+}
