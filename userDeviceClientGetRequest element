@@ -1,0 +1,20 @@
+userDeviceClientGetRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userDeviceClientGetRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <os>...</os>
+  <pushRegistrationId>...</pushRegistrationId>
+  <pushConfig>...</pushConfig>
+</userDeviceClientGetRequest>
+/******\
+Example JSON
+{
+  "os" : ...,
+  "pushRegistrationId" : "...",
+  "pushConfig" : "...",
+  "authToken" : "...",
+  "apiKey" : "..."
+}
