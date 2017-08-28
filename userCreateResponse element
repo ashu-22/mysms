@@ -1,0 +1,12 @@
+userCreateResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userCreateResponse>
+  <errorCode>...</errorCode>
+</userCreateResponse>
+/*******\
+Example JSON
+{
+  "errorCode" : ...
+}
