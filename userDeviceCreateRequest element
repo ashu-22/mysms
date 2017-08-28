@@ -1,0 +1,32 @@
+userDeviceCreateRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userDeviceCreateRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <os>...</os>
+  <canSendSms>...</canSendSms>
+  <canReceiveCall>...</canReceiveCall>
+  <canInitiateCall>...</canInitiateCall>
+  <pushRegistrationId>...</pushRegistrationId>
+  <force>...</force>
+  <messageHistoryLimit>...</messageHistoryLimit>
+  <pushConfig>...</pushConfig>
+  <maxMmsSize>...</maxMmsSize>
+</userDeviceCreateRequest>
+/*******\
+Example JSON
+{
+  "os" : ...,
+  "canSendSms" : false,
+  "canReceiveCall" : false,
+  "canInitiateCall" : false,
+  "pushRegistrationId" : "...",
+  "force" : false,
+  "messageHistoryLimit" : ...,
+  "pushConfig" : "...",
+  "maxMmsSize" : ...,
+  "authToken" : "...",
+  "apiKey" : "..."
+}
