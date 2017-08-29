@@ -1,0 +1,14 @@
+userGetFeatureRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userGetFeatureRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+</userGetFeatureRequest>
+/****\
+Example JSON
+{
+  "authToken" : "...",
+  "apiKey" : "..."
+}
