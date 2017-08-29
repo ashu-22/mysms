@@ -1,0 +1,14 @@
+userGetBalanceRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userGetBalanceRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+</userGetBalanceRequest>
+/****\
+Example JSON
+{
+  "authToken" : "...",
+  "apiKey" : "..."
+}
