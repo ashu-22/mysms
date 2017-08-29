@@ -1,0 +1,20 @@
+userGetSettingResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userGetSettingResponse>
+  <errorCode>...</errorCode>
+  <smsRouting>...</smsRouting>
+  <signature>...</signature>
+  <a2aSendEnabled>...</a2aSendEnabled>
+  <a2aReceiveEnabled>...</a2aReceiveEnabled>
+</userGetSettingResponse>
+/*****\
+Example JSON
+{
+  "smsRouting" : ...,
+  "signature" : "...",
+  "a2aSendEnabled" : false,
+  "a2aReceiveEnabled" : false,
+  "errorCode" : ...
+}
