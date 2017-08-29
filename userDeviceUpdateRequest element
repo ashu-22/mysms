@@ -1,0 +1,26 @@
+userDeviceUpdateRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userDeviceUpdateRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+  <deviceId>...</deviceId>
+  <canReceiveCall>...</canReceiveCall>
+  <canInitiateCall>...</canInitiateCall>
+  <pushRegistrationId>...</pushRegistrationId>
+  <pushConfig>...</pushConfig>
+  <maxMmsSize>...</maxMmsSize>
+</userDeviceUpdateRequest>
+/*******\
+Example JSON
+{
+  "deviceId" : ...,
+  "canReceiveCall" : false,
+  "canInitiateCall" : false,
+  "pushRegistrationId" : "...",
+  "pushConfig" : "...",
+  "maxMmsSize" : ...,
+  "authToken" : "...",
+  "apiKey" : "..."
+}
