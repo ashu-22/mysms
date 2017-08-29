@@ -1,0 +1,18 @@
+userGetSmsRoutingResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userGetSmsRoutingResponse>
+  <errorCode>...</errorCode>
+  <smsRouting>...</smsRouting>
+  <saved>...</saved>
+  <a2aAvailable>...</a2aAvailable>
+</userGetSmsRoutingResponse>
+/****\
+Example JSON
+{
+  "smsRouting" : ...,
+  "saved" : false,
+  "a2aAvailable" : false,
+  "errorCode" : ...
+}
