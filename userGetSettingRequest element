@@ -1,0 +1,14 @@
+userGetSettingRequest element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userGetSettingRequest>
+  <apiKey>...</apiKey>
+  <authToken>...</authToken>
+</userGetSettingRequest>
+/*****\
+Example JSON
+{
+  "authToken" : "...",
+  "apiKey" : "..."
+}
