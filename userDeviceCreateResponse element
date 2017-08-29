@@ -1,0 +1,14 @@
+userDeviceCreateResponse element
+
+Example XML
+<?xml version="1.0" encoding="UTF-8"?>
+<userDeviceCreateResponse>
+  <errorCode>...</errorCode>
+  <deviceId>...</deviceId>
+</userDeviceCreateResponse>
+/****\
+Example JSON
+{
+  "deviceId" : ...,
+  "errorCode" : ...
+}
